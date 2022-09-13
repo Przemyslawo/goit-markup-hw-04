@@ -174,7 +174,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--gray);
 }
-
+.str-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
 /*Our Work----------------------*/
 .our-work {
   padding: 90px;
