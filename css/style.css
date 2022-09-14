@@ -111,6 +111,10 @@ body {
   width: 16px;
   height: 16px;
 }
+.icon-contact {
+  margin: 0 10px 0 0;
+  fill: var(--gray);
+}
 
 /*Main-------------------------------------------------------------------------*/
 .main {
