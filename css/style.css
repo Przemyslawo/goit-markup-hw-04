@@ -449,13 +449,14 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.social-list {
+.social-list1 {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
+  padding-inline-start: 0px;
 }
 .social-focus:focus .icon-social {
   fill: var(--h1-color);
