@@ -101,7 +101,7 @@ body {
   margin: 0 10px 0 0;
   fill: var(--gray);
 }
-.contact1:focus .icon-envelope {
+.contact-mail:focus .icon-envelope {
   fill: var(--gray);
 }
 .contact-phone {
