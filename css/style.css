@@ -326,6 +326,7 @@ body {
 }
 
 .footer-social-media {
+  display: flex;
   background-color: #ffffff1a;
   border-radius: 50%;
   width: 40px;
