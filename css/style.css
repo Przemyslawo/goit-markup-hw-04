@@ -292,6 +292,7 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: var(--white);
+  display: flex;
 }
 .social-media-icon:hover,
 .social-media-icon-footer:hover {
