@@ -70,6 +70,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+.link:hover {
+  color: var(--blue);
+}
 .contact {
   display: flex;
   list-style: none;
