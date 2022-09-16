@@ -108,6 +108,9 @@ body {
 .contact1:focus .icon-contact {
   fill: var(--gray);
 }
+.icon-contact:hover {
+  fill: var(--blue);
+}
 
 /*Main-------------------------------------------------------------------------*/
 .main {
