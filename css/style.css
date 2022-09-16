@@ -20,7 +20,7 @@ body {
   gap: 93px;
   padding: 24px 0 25px 0;
 }
-.rynka {
+.menu {
   border-bottom: 1px solid #ececec;
 }
 
@@ -178,7 +178,7 @@ body {
 .str-icon {
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--white);
   margin-bottom: 30px;
   border-radius: 4px;
   display: flex;
@@ -251,7 +251,7 @@ body {
   color: var(--gray);
   text-align: center;
 }
-.social-media-team {
+.team-social-media {
   margin-bottom: 30px;
 
   display: flex;
@@ -260,7 +260,7 @@ body {
   gap: 10px;
 }
 
-.social-media-icon {
+.team-social-icon {
   fill: #afb1b8;
   width: 44px;
   height: 44px;
@@ -269,8 +269,8 @@ body {
   display: flex;
   justify-content: center;
 }
-.social-media-icon:hover,
-.social-media-icon-footer:hover {
+.team-social-icon:hover,
+.team-social-icon-footer:hover {
   fill: var(--white);
   background-color: var(--blue);
   cursor: pointer;
@@ -351,6 +351,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.product-card {
+  text-align: center;
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
 /*Our Client----------------------------------------*/
 
@@ -370,6 +377,7 @@ body {
   height: 92px;
   fill: #afb1b8;
 }
+
 .logo-our-clients:hover {
   fill: var(--blue);
   border: var(--blue) solid 1px;
@@ -385,6 +393,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white);
 }
+
 .footer-contact {
   padding-inline-start: 0px;
   text-align: left;
@@ -418,22 +427,7 @@ body {
   color: var(--gray);
 }
 
-.studio2 {
-  text-decoration: none;
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--white);
-}
-.product-card {
-  text-align: center;
-  background: var(--white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.social-list1 {
+.footer-social-icon {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -501,35 +495,4 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: var(--white);
-}
-
-.icon-logo {
-  width: 170px;
-  height: 92px;
-  fill: var(--gray2);
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-.icon-logo:hover {
-  fill: var(--blue);
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-
-.client:focus .icon-logo {
-  fill: var(--blue);
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-
-.client:focus {
-  outline: none;
-}
-
-.our-clients {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding-inline-start: 0px;
 }
