@@ -96,7 +96,7 @@ body {
 .contact-1:hover .icon-contact {
   fill: var(--blue);
 }
-.contact1-mail:focus {
+.contact1:focus {
   color: var(--blue);
   fill: var(--blue);
   outline: none;
@@ -108,7 +108,6 @@ body {
 .contact1:focus .icon-contact {
   fill: var(--gray);
 }
-
 
 /*Main-------------------------------------------------------------------------*/
 .main {
