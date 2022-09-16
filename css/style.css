@@ -93,7 +93,7 @@ body {
 .contact-mail:hover {
   color: var(--blue);
 }
-.contact-mail:hover .icon-envelope {
+.icon-envelope:hover {
   fill: var(--blue);
 }
 .contact-mail:focus {
