@@ -216,8 +216,7 @@ body {
 
 .team-background {
   background-color: var(--gray3);
-
-  padding: 90px 200px 90px;
+  text-align: center;
 }
 .h2 {
   text-align: center;
