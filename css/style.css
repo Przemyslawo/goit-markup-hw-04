@@ -129,11 +129,11 @@ body {
 }
 .contact-phone:focus {
   color: var(--blue);
-  fill: var(--gray);
+  fill: var(--blue);
   outline: none;
 }
 .contact-phone:focus .icon-smartphone {
-  fill: var(--blue);
+  fill: var(--gray);
 }
 
 /*Main-------------------------------------------------------------------------*/
