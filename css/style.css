@@ -82,7 +82,7 @@ body {
   margin-left: auto;
 }
 
-.contact-mail {
+.contact1 {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -90,51 +90,25 @@ body {
   letter-spacing: 0.02em;
   color: var(--gray);
 }
-.contact-mail:hover {
+.contact-1:hover {
   color: var(--blue);
 }
-.contact-mail:hover .icon-envelope {
+.contact-1:hover .icon-contact {
   fill: var(--blue);
 }
-.contact-mail:focus {
+.contact1-mail:focus {
   color: var(--blue);
   fill: var(--blue);
   outline: none;
 }
-.icon-envelope {
+.icon-contact {
   margin: 0 10px 0 0;
   fill: var(--gray);
 }
-.contact-mail:focus .icon-envelope {
-  fill: var(--gray);
-}
-.contact-phone {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--gray);
-}
-.contact-phone:hover {
-  color: var(--blue);
-}
-.contact-phone:hover .icon-smartphone {
+.contact1:focus .icon-contact {
   fill: var(--gray);
 }
 
-.icon-smartphone {
-  margin: 0 10px 0 0;
-  fill: var(--gray);
-}
-.contact-phone:focus {
-  color: var(--blue);
-  fill: var(--blue);
-  outline: none;
-}
-.contact-phone:focus .icon-smartphone {
-  fill: var(--blue);
-}
 
 /*Main-------------------------------------------------------------------------*/
 .main {
