@@ -119,10 +119,15 @@ body {
 .contact-phone:hover {
   color: var(--blue);
 }
-.contact-phone:hover .icon-smartphone {
+.contact-phone:hover {
   fill: var(--gray);
 }
-
+.icon-smartphone:hover {
+  fill: var(--gray);
+}
+.icon-smartphone:focus {
+  fill: var(--gray);
+}
 .icon-smartphone {
   margin: 0 10px 0 0;
   fill: var(--gray);
@@ -132,7 +137,7 @@ body {
   fill: var(--blue);
   outline: none;
 }
-.contact-phone:focus .icon-smartphone {
+.contact-phone:focus {
   fill: var(--gray);
 }
 
