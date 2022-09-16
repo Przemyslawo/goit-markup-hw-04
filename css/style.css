@@ -361,13 +361,11 @@ body {
 
 /*Our Client----------------------------------------*/
 
-.Our-client {
-  text-align: center;
-  margin: 0 0 50px 0;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--black);
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
 .logo-our-clients {
@@ -495,4 +493,18 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: var(--white);
+}
+
+.icon-logo {
+  width: 170px;
+  height: 92px;
+  fill: var(--gray2);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-logo:hover {
+  fill: var(--blue);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
