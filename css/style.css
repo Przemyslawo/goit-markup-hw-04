@@ -101,10 +101,7 @@ body {
   fill: var(--blue);
   outline: none;
 }
-.icon-contact {
-  margin: 0 10px 0 0;
-  fill: var(--gray);
-}
+
 .contact1:focus .icon-contact {
   fill: var(--gray);
 }
