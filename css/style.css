@@ -90,7 +90,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--gray);
 }
-
+.contact1:hover {
+  color: var(--blue);
+}
 .contact-1:hover .icons {
   fill: var(--blue);
 }
@@ -106,7 +108,9 @@ body {
 .contact1:focus .icons {
   fill: var(--gray);
 }
-
+.icons:hover {
+  fill: var(--blue);
+}
 /*Main-------------------------------------------------------------------------*/
 .main {
   display: flex;
