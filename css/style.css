@@ -90,10 +90,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--gray);
 }
-.contact1:hover {
-  color: var(--blue);
-}
-.contact-1:hover .icon-contact {
+
+.contact-1:hover .icons {
   fill: var(--blue);
 }
 .contact1:focus {
@@ -101,16 +99,14 @@ body {
   fill: var(--blue);
   outline: none;
 }
-.icon-contact {
+.icons {
   margin: 0 10px 0 0;
   fill: var(--gray);
 }
-.contact1:focus .icon-contact {
+.contact1:focus .icons {
   fill: var(--gray);
 }
-.icon-contact:hover {
-  fill: var(--blue);
-}
+
 /*Main-------------------------------------------------------------------------*/
 .main {
   display: flex;
