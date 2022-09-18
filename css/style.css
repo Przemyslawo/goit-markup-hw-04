@@ -120,7 +120,7 @@ body {
   gap: 30px;
   background-blend-mode: darken;
   box-shadow: 0 4px 4px rgba(47, 48, 58, 40%);
-  width: 100%;
+  width: 1600px;
   height: 600px;
   background: rgba(47, 48, 58, 40%) url(../images/wall1.jpg);
 }
