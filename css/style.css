@@ -572,3 +572,10 @@ body {
   fill: var(--gray);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: auto;
+}
